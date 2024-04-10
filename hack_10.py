@@ -6,7 +6,7 @@ def fn_hack_10():
 
     result = "fooziman"
     result = list(result.replace("o","0").replace("i","1").replace("a","@").upper())
-    #list sirve para separar los strings
+    
     return result
 
 r = fn_hack_10()
